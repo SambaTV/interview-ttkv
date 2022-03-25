@@ -11,9 +11,14 @@ class TimeMap {
   }
 }
 
-const input = ["TimeMap", "set", "get", "get", "set", "get", "get"];
-const input2 = [[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5]];
-//expected output [null, null, "bar", "bar", null, "bar2", "bar2"]
+// Example usage
 
-const timeMap = new TimeMap();
+// const timeMap = new TimeMap();
+
+// timeMap.set('foo', 'bar', 1);
+// timeMap.get('foo', 1); //returns 'bar'
+// timeMap.set('foo', 'baz', 3);
+// timeMap.get('foo', 1); // returns 'bar'
+// timeMap.get('foo', 2); // returns 'bar'
+// timeMap.get('foo', 3); // returns 'baz'
 
