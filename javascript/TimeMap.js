@@ -12,7 +12,7 @@ class TimeMap {
 }
 
 const input = ["TimeMap", "set", "get", "get", "set", "get", "get"];
-const input2 = [[], ["foo", "bar", 3], ["foo", 1], ["foo", 3], ["foo", 2], ["foo", 4], ["foo", 5]];
+const input2 = [[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5]];
 //expected output [null, null, "bar", "bar", null, "bar2", "bar2"]
 
 const timeMap = new TimeMap();
